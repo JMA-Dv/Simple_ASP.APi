@@ -19,10 +19,8 @@ namespace CoreCodeCamp
     public void ConfigureServices(IServiceCollection services)
     {
       services.AddDbContext<CampContext>();
-      services.AddScoped<ICampRepository, CampRepository>();
-
-      services.AddMvc()
-        .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddScoped<ICampRepository, CampRepository>();
+            services.AddControllers();
     }
 
     public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -31,8 +29,14 @@ namespace CoreCodeCamp
       {
         app.UseDeveloperExceptionPage();
       }
-      
-      app.UseMvc();
+       app.UseRouting();
+       app.UseAuthentication();
+       app.UseAuthorization();
+
+            app.UseEndpoints(a =>
+            {
+                a.MapControllers();
+            });
     }
   }
 }
