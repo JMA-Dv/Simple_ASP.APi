@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace CoreCode.API
@@ -20,6 +21,7 @@ namespace CoreCode.API
         {
             services.AddDbContext<CampContext>();
             services.AddScoped<ICampRepository, CampRepository>();
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddControllers();
         }
 

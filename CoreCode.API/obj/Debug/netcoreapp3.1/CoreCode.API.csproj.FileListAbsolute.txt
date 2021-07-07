@@ -61,3 +61,5 @@ C:\Users\EMILIA\Documents\Workspace\ASP\Traning\CoreCode\CoreCode.API\obj\Debug\
 C:\Users\EMILIA\Documents\Workspace\ASP\Traning\CoreCode\CoreCode.API\obj\Debug\netcoreapp3.1\CoreCode.API.dll
 C:\Users\EMILIA\Documents\Workspace\ASP\Traning\CoreCode\CoreCode.API\obj\Debug\netcoreapp3.1\CoreCode.API.pdb
 C:\Users\EMILIA\Documents\Workspace\ASP\Traning\CoreCode\CoreCode.API\obj\Debug\netcoreapp3.1\CoreCode.API.genruntimeconfig.cache
+C:\Users\EMILIA\Documents\Workspace\ASP\Traning\CoreCode\CoreCode.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\EMILIA\Documents\Workspace\ASP\Traning\CoreCode\CoreCode.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
