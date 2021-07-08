@@ -21,5 +21,6 @@ namespace CoreCode.API.Models
         public string LocationCountry { get; set; }
 
         public ICollection<TalkModel> Talks { get; set; }
+
     }
 }

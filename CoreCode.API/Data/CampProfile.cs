@@ -14,6 +14,8 @@ namespace CoreCode.API.Data
         {
             this.CreateMap<Camp, CampModel>()
                 .ForMember(c=> c.Venue,f => f.MapFrom(o=>o.Location.VenueName));
+            this.CreateMap<Talk, TalkModel>();
+            this.CreateMap<Speaker, SpeakerModel>();
         }
     }
 }
